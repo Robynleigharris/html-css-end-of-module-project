@@ -1,0 +1,380 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #dcdcdc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  font-family: Helvetica;
+}
+
+
+.hover:hover{
+  color:green;
+}
+
+/*---NAV BAR---*/
+.wrapper {
+  background-image: url("img/leaf.jpg");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid whitesmoke;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 16px;
+  padding: 0 6em;
+  line-height: 80px;
+  letter-spacing:2px;
+}
+
+.menu {
+  float: right;
+  margin: 0 6em;
+  line-height: 50px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: lighter;
+  padding: 0 20px;
+}
+
+li a:hover:not(.active) {
+  color: green;
+}
+
+
+
+/*----header---*/
+
+.header {
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+.header h1 {
+  padding-top: 50px;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-weight: lighter;
+  font-size: white;
+  color: white;
+}
+
+.header button {
+  color: whitesmoke;
+  background: #d99c7f;
+  border: none;
+  padding: 13px 30px;
+  font-size: 14px;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+
+/*---MAIN---*/
+.main-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  padding: 5% 0;
+}
+
+.main1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 3%;
+  text-align: center;
+}
+
+/*---content---*/
+.content {
+  background-color: lightgrey;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  padding: 10% 5%;
+  margin-top: -80px;
+  
+
+}
+
+.middle1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 3%;
+  text-align: left;
+ background-color:whitesmoke;
+ 
+ 
+}
+
+.content2 {
+  background-color:lightgrey;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  padding: 10% 5%;  
+  margin-top: -11%;
+
+}
+
+.middle2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 5%;
+  text-align: left;
+  background-color:whitesmoke;
+  margin-top: -14%;
+  margin-bottom: :10%;
+ 
+}
+
+/*--- img---*/
+.cover-img {
+  background-image: url("img/brows.jpg");
+  background-position: center;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq-img {
+  background-image: url("img/try.jpg");
+  background-position: center;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:4%;
+}
+
+
+
+  /*---cards----*/
+ .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #dcdcdc;
+
+  }
+
+  .card-image{
+    width:20em;
+    height:27em;
+    border-radius: 12px;
+  }
+
+
+  .card {
+    flex-basis: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 29px;
+    background-color: whitesmoke;
+
+  }
+
+
+
+  /*---contact us---*/
+  .contact-items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .contact {
+    color: white;
+    background-image: url("img/cirrus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+    margin-top:-2%;
+  }
+
+  .contact-items:before {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+  }
+
+
+
+  .contact-items input[type="text"],
+  .contact-items textarea {
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .contact-items a {
+    border-radius: 12px;
+    background:  #d99c7f ;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 80px;
+    display: block;
+    font-size: 17px;
+  }
+
+  /*---footer--*/
+  .footer {
+    background: black;
+    color: whitesmoke;
+    height: 200px;
+    position: relative;
+  }
+
+  .footer .footer-content {
+    height: 100px;
+    display: flex;
+    padding: 20px;
+  }
+
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding-left:20px;
+  }
+
+  /*---making it responsive---*/
+
+  @media all and (max-width: 500px) {
+    .nav {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .logo {
+      padding: 18px 0 0;
+    }
+
+    .menu ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    .menu ul li {
+      padding: 5px;
+    }
+
+    .wrapper-text-items {
+      width: 100%;
+    }
+
+    .wrapper-text-items h1 {
+      font-size: 1.5em;
+    }
+
+    .main-content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
